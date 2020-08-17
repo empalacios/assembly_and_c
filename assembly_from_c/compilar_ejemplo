@@ -1,0 +1,3 @@
+rm -f saludar.o assemblyfromc
+as --32 saludar.s -o saludar.o
+gcc -m32 ejemplo.c saludar.o -o assemblyfromc
